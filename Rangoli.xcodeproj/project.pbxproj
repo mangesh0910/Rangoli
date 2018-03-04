@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C44855B2794653C4FF7DCC /* Pods_RangoliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FECB438EB69EBB59D731941 /* Pods_RangoliUITests.framework */; };
+		4903ABEB1AF7A51B62306540 /* Pods_RangoliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DA4959F560A6E2BA2BCF8A /* Pods_RangoliTests.framework */; };
+		867684A3A76124CC4653FCA1 /* Pods_Rangoli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD8F80E9D3EAAE14130C4D6 /* Pods_Rangoli.framework */; };
+		A00803D820466CB50016F478 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00803D720466CB50016F478 /* DetailViewController.swift */; };
+		A07AD446204872F400474E31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A07AD445204872F300474E31 /* GoogleService-Info.plist */; };
+		A07AD44820492DEC00474E31 /* YadminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07AD44720492DEC00474E31 /* YadminViewController.swift */; };
 		A0A4D2C8202ED58700C7E862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2C7202ED58700C7E862 /* AppDelegate.swift */; };
 		A0A4D2CA202ED58700C7E862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2C9202ED58700C7E862 /* ViewController.swift */; };
 		A0A4D2CD202ED58700C7E862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A4D2CB202ED58700C7E862 /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		A0A4D2D2202ED58700C7E862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A4D2D0202ED58700C7E862 /* LaunchScreen.storyboard */; };
 		A0A4D2DD202ED58700C7E862 /* RangoliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2DC202ED58700C7E862 /* RangoliTests.swift */; };
 		A0A4D2E8202ED58700C7E862 /* RangoliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2E7202ED58700C7E862 /* RangoliUITests.swift */; };
+		A0A4D2F6202EE06000C7E862 /* Youtube1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2F5202EE06000C7E862 /* Youtube1.swift */; };
+		A0A4D2F8202EE08700C7E862 /* Youtube1model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4D2F7202EE08700C7E862 /* Youtube1model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DC6EE64CCE0A09F8265BBF7 /* Pods-Rangoli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rangoli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rangoli/Pods-Rangoli.debug.xcconfig"; sourceTree = "<group>"; };
+		23C099DE757BB02AB4F7F794 /* Pods-RangoliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangoliTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RangoliTests/Pods-RangoliTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C8FA4992A1C2C1E20D478B2 /* Pods-RangoliUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangoliUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RangoliUITests/Pods-RangoliUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FECB438EB69EBB59D731941 /* Pods_RangoliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RangoliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95152FF023686A2D57FFE89C /* Pods-RangoliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangoliUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RangoliUITests/Pods-RangoliUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A00803D720466CB50016F478 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A07AD445204872F300474E31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A07AD44720492DEC00474E31 /* YadminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadminViewController.swift; sourceTree = "<group>"; };
 		A0A4D2C4202ED58700C7E862 /* Rangoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rangoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4D2C7202ED58700C7E862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A4D2C9202ED58700C7E862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		A0A4D2E3202ED58700C7E862 /* RangoliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangoliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4D2E7202ED58700C7E862 /* RangoliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangoliUITests.swift; sourceTree = "<group>"; };
 		A0A4D2E9202ED58700C7E862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A4D2F5202EE06000C7E862 /* Youtube1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube1.swift; sourceTree = "<group>"; };
+		A0A4D2F7202EE08700C7E862 /* Youtube1model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube1model.swift; sourceTree = "<group>"; };
+		AFC621C27899465256D3E4A7 /* Pods-RangoliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangoliTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RangoliTests/Pods-RangoliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A3938E5C6C2E392CEE5B0E /* Pods-Rangoli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rangoli.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rangoli/Pods-Rangoli.release.xcconfig"; sourceTree = "<group>"; };
+		D8DA4959F560A6E2BA2BCF8A /* Pods_RangoliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RangoliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8F80E9D3EAAE14130C4D6 /* Pods_Rangoli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rangoli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867684A3A76124CC4653FCA1 /* Pods_Rangoli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4903ABEB1AF7A51B62306540 /* Pods_RangoliTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C44855B2794653C4FF7DCC /* Pods_RangoliUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34EC1D23547088695DCAA101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8F80E9D3EAAE14130C4D6 /* Pods_Rangoli.framework */,
+				D8DA4959F560A6E2BA2BCF8A /* Pods_RangoliTests.framework */,
+				5FECB438EB69EBB59D731941 /* Pods_RangoliUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C90F95B36A7F67344FE23AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DC6EE64CCE0A09F8265BBF7 /* Pods-Rangoli.debug.xcconfig */,
+				C7A3938E5C6C2E392CEE5B0E /* Pods-Rangoli.release.xcconfig */,
+				AFC621C27899465256D3E4A7 /* Pods-RangoliTests.debug.xcconfig */,
+				23C099DE757BB02AB4F7F794 /* Pods-RangoliTests.release.xcconfig */,
+				3C8FA4992A1C2C1E20D478B2 /* Pods-RangoliUITests.debug.xcconfig */,
+				95152FF023686A2D57FFE89C /* Pods-RangoliUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A0A4D2BB202ED58600C7E862 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				A0A4D2DB202ED58700C7E862 /* RangoliTests */,
 				A0A4D2E6202ED58700C7E862 /* RangoliUITests */,
 				A0A4D2C5202ED58700C7E862 /* Products */,
+				4C90F95B36A7F67344FE23AF /* Pods */,
+				34EC1D23547088695DCAA101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +149,15 @@
 			children = (
 				A0A4D2C7202ED58700C7E862 /* AppDelegate.swift */,
 				A0A4D2C9202ED58700C7E862 /* ViewController.swift */,
+				A0A4D2F5202EE06000C7E862 /* Youtube1.swift */,
+				A0A4D2F7202EE08700C7E862 /* Youtube1model.swift */,
+				A00803D720466CB50016F478 /* DetailViewController.swift */,
+				A07AD44720492DEC00474E31 /* YadminViewController.swift */,
 				A0A4D2CB202ED58700C7E862 /* Main.storyboard */,
 				A0A4D2CE202ED58700C7E862 /* Assets.xcassets */,
 				A0A4D2D0202ED58700C7E862 /* LaunchScreen.storyboard */,
 				A0A4D2D3202ED58700C7E862 /* Info.plist */,
+				A07AD445204872F300474E31 /* GoogleService-Info.plist */,
 			);
 			path = Rangoli;
 			sourceTree = "<group>";
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0A4D2EC202ED58700C7E862 /* Build configuration list for PBXNativeTarget "Rangoli" */;
 			buildPhases = (
+				629EEBFC23E7666C9D24E354 /* [CP] Check Pods Manifest.lock */,
 				A0A4D2C0202ED58700C7E862 /* Sources */,
 				A0A4D2C1202ED58700C7E862 /* Frameworks */,
 				A0A4D2C2202ED58700C7E862 /* Resources */,
+				F8930AA2AE740B9C8D31A6C4 /* [CP] Embed Pods Frameworks */,
+				339F1C20AA8855DB372E899A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0A4D2EF202ED58700C7E862 /* Build configuration list for PBXNativeTarget "RangoliTests" */;
 			buildPhases = (
+				CD4F9941911ED611D283BB35 /* [CP] Check Pods Manifest.lock */,
 				A0A4D2D4202ED58700C7E862 /* Sources */,
 				A0A4D2D5202ED58700C7E862 /* Frameworks */,
 				A0A4D2D6202ED58700C7E862 /* Resources */,
+				1E1866B298AFE8818505F969 /* [CP] Embed Pods Frameworks */,
+				C21C860D3F5358E6022541E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0A4D2F2202ED58700C7E862 /* Build configuration list for PBXNativeTarget "RangoliUITests" */;
 			buildPhases = (
+				2D890A651EFDD243B5C89A3D /* [CP] Check Pods Manifest.lock */,
 				A0A4D2DF202ED58700C7E862 /* Sources */,
 				A0A4D2E0202ED58700C7E862 /* Frameworks */,
 				A0A4D2E1202ED58700C7E862 /* Resources */,
+				8151BE5EA0DFD4A5AD901CD3 /* [CP] Embed Pods Frameworks */,
+				2E4E1CDABC5F4F38D75B1FE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A4D2D2202ED58700C7E862 /* LaunchScreen.storyboard in Resources */,
+				A07AD446204872F400474E31 /* GoogleService-Info.plist in Resources */,
 				A0A4D2CF202ED58700C7E862 /* Assets.xcassets in Resources */,
 				A0A4D2CD202ED58700C7E862 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +319,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E1866B298AFE8818505F969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RangoliTests/Pods-RangoliTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D890A651EFDD243B5C89A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RangoliUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4E1CDABC5F4F38D75B1FE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RangoliUITests/Pods-RangoliUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339F1C20AA8855DB372E899A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rangoli/Pods-Rangoli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		629EEBFC23E7666C9D24E354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rangoli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8151BE5EA0DFD4A5AD901CD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RangoliUITests/Pods-RangoliUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21C860D3F5358E6022541E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RangoliTests/Pods-RangoliTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4F9941911ED611D283BB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RangoliTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8930AA2AE740B9C8D31A6C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rangoli/Pods-Rangoli-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rangoli/Pods-Rangoli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0A4D2C0202ED58700C7E862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07AD44820492DEC00474E31 /* YadminViewController.swift in Sources */,
 				A0A4D2CA202ED58700C7E862 /* ViewController.swift in Sources */,
+				A0A4D2F8202EE08700C7E862 /* Youtube1model.swift in Sources */,
+				A00803D820466CB50016F478 /* DetailViewController.swift in Sources */,
 				A0A4D2C8202ED58700C7E862 /* AppDelegate.swift in Sources */,
+				A0A4D2F6202EE06000C7E862 /* Youtube1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +647,7 @@
 		};
 		A0A4D2ED202ED58700C7E862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC6EE64CCE0A09F8265BBF7 /* Pods-Rangoli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +662,7 @@
 		};
 		A0A4D2EE202ED58700C7E862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A3938E5C6C2E392CEE5B0E /* Pods-Rangoli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +677,7 @@
 		};
 		A0A4D2F0202ED58700C7E862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC621C27899465256D3E4A7 /* Pods-RangoliTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +694,7 @@
 		};
 		A0A4D2F1202ED58700C7E862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C099DE757BB02AB4F7F794 /* Pods-RangoliTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +711,7 @@
 		};
 		A0A4D2F3202ED58700C7E862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8FA4992A1C2C1E20D478B2 /* Pods-RangoliUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +727,7 @@
 		};
 		A0A4D2F4202ED58700C7E862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95152FF023686A2D57FFE89C /* Pods-RangoliUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
